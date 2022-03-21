@@ -10,7 +10,7 @@ It compiles to Erlang and has straightforward interop with other BEAM languages 
 
 Gleam is built on the foundation of the Erlang ecosystem.  Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency, and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
-The combination of two things set Gleam apart from other languages that target the Beam V.M.:
+Two things, taken together, set Gleam apart from other languages that target the Beam V.M.:
 
 1.  Static Type Checking. 
 
