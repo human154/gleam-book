@@ -20,7 +20,7 @@ Two things set Gleam apart from other languages that target the Beam V.M.:
     - When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes, that need to be made anywhere in the entire code base.
     - Gleam provides carefully crafted, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
-2.  Gleam Has An Enthusiastic Community!
+2.  Gleam's Enthusiastic Community!
 
      Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
 
