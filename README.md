@@ -25,7 +25,7 @@ Two things, taken together, set Gleam apart from other languages that target the
      Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
 
 
-Aside from targeting the Beam V.M., Gleam can also compile to Javascript.
+(Aside from targeting the Beam V.M., Gleam can also compile to Javascript.)
 
 Being easy to learn is one of Gleam's primary goals.  To keep the language simple, Gleam is designed to have only one way of writing code, as opposed to providing alternative ways for the programmer to express themselves.
 
