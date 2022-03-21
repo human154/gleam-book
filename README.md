@@ -29,7 +29,7 @@ Two things, taken together, set Gleam apart from other languages that target the
 
 Being easy to learn is one of Gleam's primary goals.  To keep the language simple, Gleam is designed to have only one way of writing code, as opposed to providing alternative ways for the programmer to express themselves.
 
-Given the language's simplicity, and the fact that it is written in Rust, the Gleam compiler is naturally very fast at compiling Gleam source code.
+This simplicity makes the Gleam compiler very fast at compiling Gleam source code (the compiler is written in Rust).
 
 
 
