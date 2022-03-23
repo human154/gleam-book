@@ -68,7 +68,7 @@ pub fn main() {
 }
 ```
 
-### Immutable Data Simplifies Gleam Simpler
+### Immutable Data Makes Gleam Code Simpler
 
 In programming, there are generally two ways to work with data:
 1. Alter/mutate data right where it sits in memeory.
