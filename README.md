@@ -101,16 +101,16 @@ This means Gleam code is a bit simpler to read and understand. Since Gleam only 
 Gleam does allow us to create new names that are the same as existing names:
 ```gleam
 let z = "cat"
-let z = 1  // the 'z' defined in the line above is inaccessible after this line.
+let z = 4  // this 'z' defined here makes the one defined in the line above inaccessible after this line.
 // 'z' is now 2
 ```
 The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
 
 The value of the "shadowed" name can be used on the right of the equals sign:
 ```gleam
-let x = 3
-let x = x + 1 // The new name x holds 4.
-// the first 'x' is inaccessible after the above line.
+let x = 5
+let x = x + 1 // The new name 'x' holds 5.
+// the first 'x' defined is inaccessible here.
 ```
 
 Shadowing can make writing code easier at times, but generally its probably better to think of a discriptive new name to hold new data.
