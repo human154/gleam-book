@@ -81,7 +81,7 @@ For example, most programming languages will allow values to be changed:
 
 x = 1
 increment(x)
-// now x is 2
+// Now x is 2
 ```
 
 The above mutation is not possible in Gleam!
@@ -91,7 +91,7 @@ In Gleam, we can only generate seperate new values which are based on existing v
 ```gleam
 let x = 1
 let y = increment(x)
-// now y is 2 and x is still 1
+// Now y is 2 and x is still 1
 ```
 
 This means Gleam code is a bit simpler to read and understand. Since Gleam only allows us to change values, when you see something like `increment(x)`, you can immediately know that the function does not change 'x', because changing values is not a possibility in Gleam. This makes reading Gleam code simpler. Likewise, when you're writing Gleam code, you never need to decide between mutating a value or just creating a new value.
@@ -101,7 +101,7 @@ This means Gleam code is a bit simpler to read and understand. Since Gleam only 
 Gleam does allow us to create new names that are the same as existing names:
 ```gleam
 let z = "cat"
-let z = 4  // this 'z' defined here makes the one defined in the line above inaccessible after this line.
+let z = 4  // This new 'z' makes the one defined in the line above inaccessible after this line.
 // 'z' is now 2
 ```
 The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
@@ -110,7 +110,7 @@ The value of the "shadowed" name can be used on the right of the equals sign:
 ```gleam
 let x = 5
 let x = x + 1 // The new name 'x' holds 5.
-// the first 'x' defined is inaccessible here.
+// The first 'x' defined is inaccessible here.
 ```
 
 Shadowing can make writing code easier at times, but generally its probably better to think of a discriptive new name to hold new data.
