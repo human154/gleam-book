@@ -102,7 +102,6 @@ Gleam does allow us to create new names that are the same as existing names:
 ```gleam
 let z = "cat"
 let z = 1  // the 'z' defined in the line above is inaccessible after this line.
-let z = 2 // the 'z' defined in the line above is again inaccessible after this line.
 // 'z' is now 2
 ```
 The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
