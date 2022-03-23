@@ -76,7 +76,7 @@ In programming, there are generally two ways to work with data:
 
 For example, most programming languages will allow values to be changed:
 
-```
+```gleam
 // This isn't Gleam !!!
 
 x = 1
@@ -88,7 +88,7 @@ The above mutation is not possible in Gleam!
 
 In Gleam, we can only generate seperate new values which are based on existing values:
 
-```
+```gleam
 let x = 1
 let y = increment(x)
 // now y is 2 and x is still 1
@@ -99,7 +99,7 @@ This means Gleam code is a bit simpler to read and understand. Since Gleam only 
 ### Shadowing
 
 Gleam does allow us to create new names that are the same as existing names:
-```
+```gleam
 let z = "cat"
 let z = 1  // the 'z' above is inaccessible after this line.
 let z = 2 // the last 'z' is inaccessible after this line.
@@ -108,7 +108,7 @@ let z = 2 // the last 'z' is inaccessible after this line.
 The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
 
 The value of the "shadowed" name can be used on the right of the equals sign:
- ```
+```gleam
 let x = 3
 let x = x + 1 // The new name x holds 4.
 // the first 'x' is inaccessible after the above line.
