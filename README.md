@@ -86,7 +86,7 @@ increment(x)
 
 The above mutation is not possible in Gleam!
 
-In Gleam, we can only create seperate, new data which is derived from existing data:
+In Gleam, we can only create seperate, new data, which is derived from existing data:
 
 ```gleam
 let x = 1
@@ -94,7 +94,7 @@ let y = increment(x)
 // Now 'y' is 2 but 'x' is still 1
 ```
 
-This means Gleam code is a bit simpler to read and understand. Since Gleam only allows us to change values, when you see something like `increment(x)`, you can immediately know that the function does not change 'x', because changing values is not a possibility in Gleam. This makes reading Gleam code simpler. Likewise, when you're writing Gleam code, you never need to decide between mutating a value or just creating a new value.
+This means Gleam code is a bit simpler to read and understand. Since Gleam only allows us to change values, when you see something like `increment(x)`, you can immediately know that the function does not change `x`, because changing values is not a possibility in Gleam. This makes reading Gleam code simpler. Likewise, when you're writing Gleam code, you never need to decide between mutating a value or just creating a new value.
 
 ### Shadowing
 
