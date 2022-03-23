@@ -46,7 +46,7 @@ Gleam's simplicity means that Gleam's compiler is very fast and you won't have l
 
 Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language.  Gleam uses a functional programming style which is a great match for working with immutable data.
 
-If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance.
+If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance!
 
 ### The Limitations Of Gleam
 Gleam is a young language. The Gleam community is working hard to remedy the following limitations:
@@ -106,12 +106,12 @@ let z = 4  // This new z makes the one defined in the line above inaccessible af
 ```
 Nothing relating to the first `z` changed, except that it became inaccessible after a new, identical name, was created.
 
-The value of the "shadowed" name can be used on the right of the equals sign:
+The "shadowed" name can be used on the right of the equals sign:
 ```gleam
 let x = 5 // This x will be shadowed on the next line.
-let x = x + 1 // The new name x is 5.
+let x = x + 1 // The new x is given a value of 6.
 // The first x defined is inaccessible here.
 ```
 
-Shadowing can make writing code easier at times, but generally its probably better to think of a discriptive new name to hold new data.
+Shadowing can make writing code easier at times, but generally its probably better to think of a discriptive new name to represent new data.
 
