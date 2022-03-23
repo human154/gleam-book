@@ -23,7 +23,7 @@ Currently, the well established languages in the Erlang ecosystem are dynamicall
 
 Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
 
-You are very welcome and we are happy to have you join in.
+You are very welcome and we are happy to have you join in!
 
 You can talk to and get help from other Gleam community members in the following forums: 
 - [Gleam’s web chat on Discord.](https://discord.gg/Fm8Pwmy)
@@ -44,7 +44,7 @@ Gleam's simplicity means that Gleam's compiler is very fast and you won't have l
 
 #### Immutable Data And Functional Programming
 
-Languages targeting the Beam V.M. work with imutable data. When we talk about Data types in the next Chapter we'll see how this simplifies the language.  Gleam uses a functional programming style which is a great match for working with immutable data.
+Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language.  Gleam uses a functional programming style which is a great match for working with immutable data.
 
 If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance.
 
@@ -70,11 +70,11 @@ pub fn main() {
 
 ### Immutable Data Makes Gleam Code Simpler
 
-In programming, there are generally two ways to work with data:
+In most programming languages there are two ways to work with data:
 1. Alter/mutate data right where it sits in memeory.
 2. Create new data which is seperate from, but based on existing data. 
 
-For example, most programming languages will allow values to be changed:
+Most languages will allow values to be changed:
 
 ```gleam
 // This isn't Gleam !!!
@@ -86,7 +86,7 @@ increment(x)
 
 The above mutation is not possible in Gleam!
 
-In Gleam, we can only generate seperate new values which are based on existing values:
+In Gleam, we can only create seperate, new data which is derived from existing data:
 
 ```gleam
 let x = 1
