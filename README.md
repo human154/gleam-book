@@ -91,7 +91,7 @@ In Gleam, we can only create seperate, new data which is derived from existing d
 ```gleam
 let x = 1
 let y = increment(x)
-// Now y is 2 and x is still 1
+// Now 'y' is 2 but 'x' is still 1
 ```
 
 This means Gleam code is a bit simpler to read and understand. Since Gleam only allows us to change values, when you see something like `increment(x)`, you can immediately know that the function does not change 'x', because changing values is not a possibility in Gleam. This makes reading Gleam code simpler. Likewise, when you're writing Gleam code, you never need to decide between mutating a value or just creating a new value.
@@ -102,13 +102,13 @@ Gleam does allow us to create new names that are the same as existing names:
 ```gleam
 let z = "cat"
 let z = 4  // This new 'z' makes the one defined in the line above inaccessible after this line.
-// 'z' is now 2
+// 'z' is now 4
 ```
-The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
+Nothing related to the first 'z' changed, except that it became inaccessible after a new identical name was created.
 
 The value of the "shadowed" name can be used on the right of the equals sign:
 ```gleam
-let x = 5
+let x = 5 // This 'x' will be shadowed on the next line.
 let x = x + 1 // The new name 'x' holds 5.
 // The first 'x' defined is inaccessible here.
 ```
