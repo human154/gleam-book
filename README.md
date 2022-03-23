@@ -1,6 +1,6 @@
 # The Gleam Programming Language
 
-## Introduction
+## Chapter 1. Introduction
 
 Gleam is a friendly language for building type-safe, scalable systems!
 
@@ -8,28 +8,101 @@ It compiles to Erlang and has straightforward interop with other BEAM languages 
 
 ### The Unique Characteristics of Gleam
 
+#### Fault Tolerence and Great Concurrency
+
 Gleam is built on the foundation of the Erlang ecosystem.  Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency, and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
-Two things, taken together, set Gleam apart from other languages that target the Beam V.M.:
+#### Static Type Checking
 
-1.  Static Type Checking. 
+Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing:
+- As is common with compiled languages, the Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. The bottom line here is that Gleam's compiler enables the creation of better quality, more reliable software that requires less maintenance.
+- When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes, that need to be made anywhere in the entire code base.
+- Gleam provides carefully crafted, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
-    Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing:
+#### A Great Community!
 
-    - As is common with compiled languages, the Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. The bottom line here is that Gleam's compiler enables the creation of better quality, more reliable software that requires less maintenance.
-    - When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes, that need to be made anywhere in the entire code base.
-    - Gleam provides carefully crafted, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
+Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
 
-2.  Gleam's Enthusiastic Community!
+You are very welcome and we are happy to have you join in.
 
-     Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
+You can talk to and get help from other Gleam community members in the following forums: 
+- [Gleam’s web chat on Discord.](https://discord.gg/Fm8Pwmy)
+- [Gleam discussions on Github.](https://github.com/gleam-lang/gleam/discussions)
+- [Gleam’s threads on the Erlang Forums](https://erlangforums.com/gleam)
 
+#### Compiles To Javascript
 
-(Aside from targeting the Beam V.M., Gleam can also compile to Javascript.)
+Aside from targeting the Beam V.M., Gleam can also compile to Javascript. This lays the foundation for fullstack web developmeent.
+
+#### Easy To Learn
 
 Being easy to learn is one of Gleam's primary goals.  To keep the language simple, Gleam is designed to have only one way of writing code, as opposed to providing alternative ways for the programmer to express themselves.
 
-This simplicity makes the Gleam compiler very fast at compiling Gleam source code (the compiler is written in Rust).
+#### Fast Compilation
 
+Gleam's simplicity means that Gleam's compiler is very fast and you won't have long wait times for it to compile Gleam source code. The compiler is written in Rust.
 
+#### Immutable Data And Functional Programming
+
+Languages targeting the Beam V.M. work with imutable data types. When we talk about Data types in the next Chapter we'll see how immutable data simplifies the language.  Gleam uses a functional programming style which is a great match for working with immutable data. For example, gleam 
+
+If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance.
+
+### The Limitations Of Gleam
+Gleam is a young language. The Gleam community is working hard to remedy the following limitations:
+- There is no repl (interactive command line interface)
+- A limited ecosystem of libraries. This is offset by the fact that Gleam programs can easily make use of the entire Beam ecosystem (including libraries from Erlang, Elixir and and other languages).
+- A limited number of tutorials available online.
+
+You can help Gle
+
+## Chapter 2. Data and Types
+
+### Immutable Data Makes Programming In Gleam Simpler
+
+In programming, there are generally two ways to work with data:
+1. Alter/mutate data right where it sits in memeory.
+2. Create new data which is seperate from, but based on existing data. 
+
+For example, most programming languages will allow values to be changed:
+
+```
+// This isn't Gleam !!!
+
+x = 1
+increment(x)
+// now x is 2
+```
+
+The above mutation is not possible in Gleam!
+
+In Gleam, we can only generate seperate new values which are based on existing values:
+
+```
+let x = 1
+let y = increment(x)
+// now y is 2 and x is still 1
+```
+
+This means Gleam code is a bit simpler to read and understand. Since Gleam only allows us to change values, when you see something like `increment(x)`, you can immediately know that the function does not change 'x', because changing values is not a possibility in Gleam. This makes reading Gleam code simpler. Likewise, when you're writing Gleam code, you never need to decide between mutating a value or just creating a new value.
+
+### Shadowing
+
+Gleam does allow us to create new names that are the same as existing names:
+```
+let z = "cat"
+let z = 1  // the 'z' above is inaccessible after this line.
+let z = 2 // the last 'z' is inaccessible after this line.
+// 'z' is now 2
+```
+The value associated with the first 'z' that we created was never changed.  The first 'z' name and value just became inaccessible after a new identical name was created.
+
+The value of the "shadowed" name can be used on the right of the equals sign:
+ ```
+let x = 3
+let x = x + 1 // The new name x holds 4.
+// the first 'x' is inaccessible after the above line.
+```
+
+Shadowing can make writing code easier at times, but generally its probably better to think of a discriptive new name to hold new data.
 
