@@ -62,14 +62,9 @@ Gleam is a young language. The Gleam community is working hard to remedy the fol
 
 ```
 import gleam/io
-import gleam/erlang
-import gleam/string
 
 pub fn main() {
-  io.println("Who are you?")
-  assert Ok(name) = erlang.get_line("> ")
-  string.append("Hello ", name)
-  |> io.println()
+  io.println("Hello Gleam!")
 }
 ```
 
