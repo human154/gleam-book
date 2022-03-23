@@ -60,7 +60,7 @@ Gleam is a young language. The Gleam community is working hard to remedy the fol
 
 ### First Example
 
-```
+```gleam
 import gleam/io
 
 pub fn main() {
