@@ -94,7 +94,7 @@ let y = increment(x)
 // Now x is 1 and y is 2.
 ```
 
-Gleam code is a bit simpler to read and understand than languages that allow both ways of working with data. When you see something like `increment(x)`, you can immediately know that the function does not change `x` because the language doesn't allow changing data. Likewise, when you're writing Gleam code, you never need to decide between mutating data or just creating new data, you always create new data.
+Gleam code is a bit simpler to read and understand than languages that allow both ways of working with data. When you see something like `increment(x)`, you can immediately know that the function does not change `x` because the language doesn't allow changing data. Likewise, when you're writing Gleam code, you never need to decide between mutating data or creating new data, you always create new data.
 
 ### Shadowing
 
