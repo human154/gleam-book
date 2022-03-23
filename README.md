@@ -104,7 +104,7 @@ let z = "cat"
 let z = 4  // This new z makes the one defined in the line above inaccessible after this line.
 // z is now 4
 ```
-Nothing related to the first `z` changed, except that it became inaccessible after a new identical name was created.
+Nothing relating to the first `z` changed, except that it became inaccessible after a new, identical name, was created.
 
 The value of the "shadowed" name can be used on the right of the equals sign:
 ```gleam
