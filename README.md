@@ -5,7 +5,7 @@
 ### The Unique Characteristics of Gleam
 
 >Gleam is a friendly language for building type-safe, scalable systems!
-
+>
 >It compiles to Erlang and has straightforward interop with other BEAM languages such as Erlang, Elixir and LFE.    
 
 #### Fault Tolerence, Great Concurrency And Distribution!
