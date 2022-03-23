@@ -32,7 +32,7 @@ You can talk to and get help from other Gleam community members in the following
 
 #### Compiles To Javascript
 
-Aside from targeting the Beam V.M., Gleam can also compile to Javascript. This lays the foundation for fullstack web developmeent.
+Aside from targeting the Beam V.M., Gleam can also compile to Javascript. This means the enormous Javascript ecosystem can be leverged. It also lays the foundation for fullstack web developmeent.
 
 #### Easy To Learn
 
