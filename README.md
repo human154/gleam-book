@@ -26,17 +26,6 @@ When your Gleam code base grows into a larger, more complex project, you can con
 
 Gleam provides carefully written, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
-#### A Great Community!
-
-Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
-
-You are very welcome and we are happy to have you join in!
-
-You can talk to and get help from other Gleam community members in the following forums: 
-- [Gleam’s web chat on Discord.](https://discord.gg/Fm8Pwmy)
-- [Gleam discussions on Github.](https://github.com/gleam-lang/gleam/discussions)
-- [Gleam’s threads on the Erlang Forums](https://erlangforums.com/gleam)
-
 #### Compiles To Javascript
 
 Aside from targeting the Beam V.M., Gleam can also compile to Javascript! This means the enormous Javascript ecosystem can be leverged. It also lays the foundation for fullstack web developmeent.
@@ -54,6 +43,17 @@ Gleam's simplicity means that Gleam's compiler is very fast and you won't have l
 Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language and makes it easier to reason about.  Gleam uses a functional programming style which is a great match for working with immutable data.
 
 If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance!
+
+#### A Great Community!
+
+Louis Pilford, Gleam's primary creator, has shown a stong desire and ability to fostor the Gleam community. Louis already has more than 120 enthusiastic sponsors through github. Amung those sponsors is José Valim, the creator of the very successful Beam language, Elixir.
+
+You are very welcome and we are happy to have you join in!
+
+You can talk to and get help from other Gleam community members in the following forums: 
+- [Gleam’s web chat on Discord.](https://discord.gg/Fm8Pwmy)
+- [Gleam discussions on Github.](https://github.com/gleam-lang/gleam/discussions)
+- [Gleam’s threads on the Erlang Forums](https://erlangforums.com/gleam)
 
 ### The Limitations Of Gleam
 Gleam is a young language. The Gleam community is working hard to remedy the following limitations:
