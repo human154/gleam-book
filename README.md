@@ -12,16 +12,18 @@
 
 Gleam is built on the foundation of the Erlang ecosystem.  Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
-#### Quality Code: Static Type Checking
+#### Quality Code Through Static Type Checking
 
 Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing.
 
-The Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. Gleam's compiler enables the creation of higher quality, more reliable software that requires less maintenance.
+The Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. 
+
+In type checked languages you put in more up-front effort into crafting your code. This extra effort results in the creation of higher quality, more reliable software that requires less maintenance compared to dynamically typed languages.
 
 #### Productivity
 
-- When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes, that need to be made anywhere in the entire code base.
-- Gleam provides carefully crafted, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
+- When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes that need to be made, anywhere in the entire code base.
+- Gleam provides carefully written, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
 #### A Great Community!
 
