@@ -12,10 +12,14 @@
 
 Gleam is built on the foundation of the Erlang ecosystem.  Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
-#### Static Type Checking
+#### Quality Code: Static Type Checking
 
-Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing:
-- As is common with compiled languages, the Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. Gleam's compiler enables the creation of higher quality, more reliable software that requires less maintenance.
+Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing.
+
+The Gleam compiler checks your source code and insists you address any errors before the code is run. These errors, which are caught by the compiler and are fixed early, are errors that your user/customer will never need to experience and they are errors which you will never be called to fix in the middle of the night. Gleam's compiler enables the creation of higher quality, more reliable software that requires less maintenance.
+
+#### Productivity
+
 - When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes, that need to be made anywhere in the entire code base.
 - Gleam provides carefully crafted, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
@@ -42,9 +46,9 @@ Being easy to learn is one of Gleam's primary goals.  To keep the language simpl
 
 Gleam's simplicity means that Gleam's compiler is very fast and you won't have long wait times for it to compile Gleam source code. The compiler is written in Rust.
 
-#### Immutable Data And Functional Programming
+#### Simple, Immutable Data
 
-Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language.  Gleam uses a functional programming style which is a great match for working with immutable data.
+Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language and makes it easier to reason about.  Gleam uses a functional programming style which is a great match for working with immutable data.
 
 If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance!
 
@@ -55,6 +59,12 @@ Gleam is a young language. The Gleam community is working hard to remedy the fol
 - A limited number of tutorials available online.
 
 ### Contributing
+
+The Gleam community is growing but still young. There are plenty of opportunities to make a contribution:
+- Write a blog post about Gleam.
+- Try to make something with Gleam and share your feedback with the Gleam developers.
+- [Contribute to the Gleam ecosysten](https://github.com/gleam-lang)
+- If you are interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
 
 ## Chapter 2. Hello Data!
 
