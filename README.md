@@ -84,16 +84,16 @@ pub fn main() {
 ### Example 2
 
 ```gleam
-import gleam/io  
+import gleam/io
 import gleam/erlang
 import gleam/string
 
 pub fn main() {
-  assert Ok(name) = erlang.get_line("Please Enter Your Name >> ")
-  let greeting = string.concat("Greetings ", name, "!")
+  assert Ok(name_with_newline) = erlang.get_line("Please Enter Your Name >> ")
+  let name = string.trim_right(name_with_newline)
+  let greeting = string.concat(["Welcome ", name, "!"])
   io.println(greeting)
 }
-
 ```
 
 ### Immutable Data Makes Gleam Code Simpler
