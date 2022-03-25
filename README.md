@@ -82,7 +82,8 @@ pub fn main() {
 ```
 
 ### Example 2
-```
+
+```gleam
 import gleam/io  
 import gleam/erlang
 import gleam/string
