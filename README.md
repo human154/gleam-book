@@ -22,8 +22,9 @@ In type checked languages you put in more up-front effort into crafting your cod
 
 #### Productivity
 
-- When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes that need to be made, anywhere in the entire code base.
-- Gleam provides carefully written, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
+When your Gleam code base grows into a larger, more complex project, you can continue to make changes fearlessly. The compiler will identify any related, incidental changes that need to be made, anywhere in the entire code base.
+
+Gleam provides carefully written, super helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
 #### A Great Community!
 
