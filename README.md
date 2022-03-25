@@ -90,7 +90,7 @@ import gleam/string
 
 pub fn main() {
   assert Ok(name) = erlang.get_line("Please Enter Your Name >> ")
-  let greeting = string.append("Hello ", name)
+  let greeting = string.concat("Greetings ", name, "!")
   io.println(greeting)
 }
 
