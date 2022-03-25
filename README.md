@@ -71,14 +71,28 @@ The Gleam community is growing but still young. There are plenty of opportunitie
 
 ## Chapter 2. Hello Data!
 
-### First Example
+### Example 1
 
 ```gleam
-import gleam/io
+import gleam/io     // The io module provides the println() function below.
 
 pub fn main() {
   io.println("Hello Gleam!")
 }
+```
+
+### Example 2
+```
+import gleam/io  
+import gleam/erlang
+import gleam/string
+
+pub fn main() {
+  assert Ok(name) = erlang.get_line("Please Enter Your Name >> ")
+  let greeting = string.append("Hello ", name)
+  io.println(greeting)
+}
+
 ```
 
 ### Immutable Data Makes Gleam Code Simpler
