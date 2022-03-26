@@ -8,7 +8,7 @@
 
 ### The Unique Characteristics of Gleam
 
-#### Fault Tolerence, Great Concurrency And Distribution!
+#### Fault Tolerence, Concurrency And Distribution!
 
 Gleam is built on the foundation of the Erlang ecosystem.  Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
@@ -58,13 +58,13 @@ You can talk to and get help from other Gleam community members in the following
 ### The Limitations Of Gleam
 Gleam is a young language. The Gleam community is working hard to remedy the following limitations:
 - There is no repl (interactive command line interface)
-- A limited ecosystem of libraries. This is offset by the fact that Gleam programs can easily make use of the entire Beam ecosystem (including libraries from Erlang, Elixir and and other languages).
+- A limited ecosystem of libraries. This is offset by the fact that Gleam programs can easily make use of the entire Beam ecosystem (including libraries from Erlang, Elixir, LFE and and other Beam languages).
 - A limited number of tutorials available online.
 
 ### Contributing
 
 The Gleam community is growing but still young. There are plenty of opportunities to make a contribution:
-- Write a blog post about Gleam.
+- Write a blog post or tutorial about Gleam.
 - Try to make something with Gleam and share your feedback with the Gleam developers.
 - [Contribute to the Gleam ecosysten](https://github.com/gleam-lang)
 - If you are interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
