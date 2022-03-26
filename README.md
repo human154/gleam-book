@@ -10,7 +10,7 @@
 
 #### Fault Tolerence, Concurrency And Distribution!
 
-Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering, and it gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
+Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering. The Beam ecosystem gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
 #### Quality Code Through Static Type Checking
 
