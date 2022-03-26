@@ -42,7 +42,7 @@ Gleam's simplicity means that Gleam's compiler is very fast and you won't have l
 
 Languages targeting the Beam V.M. work with imutable data. When we talk about data types in the next chapter we'll see how this simplifies the language and makes it easier to reason about.  Gleam uses a functional programming style which is a great match for working with immutable data.
 
-If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existance!
+If you haven't worked in a functional style before, then you are in the right place! Gleam is amung the simplest and friendliest functional languages in existence!
 
 #### A Great Community!
 
