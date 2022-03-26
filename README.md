@@ -57,9 +57,12 @@ You can talk to and get help from other Gleam community members in the following
 
 ### The Limitations Of Gleam
 Gleam is a young language. The Gleam community is working hard to remedy the following limitations:
-- There is no repl (interactive command line interface)
-- A limited ecosystem of libraries. This is offset by the fact that Gleam programs can easily make use of the entire Beam ecosystem (including libraries from Erlang, Elixir, LFE and and other Beam languages).
 - A limited number of tutorials available online.
+- A limited ecosystem of libraries. This is offset by the fact that Gleam programs can easily make use of the entire Beam ecosystem (including libraries from Erlang, Elixir, LFE and and other Beam languages) as well as the Javascript Ecosystem
+- There is no repl yet for Gleam.
+- Limited documentation.
+- Limited Editor Support.
+- String interpolation and default function arguments are not yet a part of the language.
 
 ### Contributing
 
@@ -67,7 +70,7 @@ The Gleam community is growing but still young. There are plenty of opportunitie
 - Write a blog post or tutorial about Gleam.
 - Try to make something with Gleam and share your feedback with the Gleam developers.
 - [Contribute to the Gleam ecosysten](https://github.com/gleam-lang)
-- If you are interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
+- If you're interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
 
 ## Chapter 2. Hello Data!
 
