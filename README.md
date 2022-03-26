@@ -6,13 +6,13 @@
 
 ## Chapter 1. Introduction
 
-### The Unique Characteristics of Gleam
+### The Characteristics of Gleam
 
 #### Fault Tolerence, Concurrency And Distribution!
 
 Gleam code runs on a virtual machine (V.M.) called "Beam".  The Beam V.M. is a unique marvel of industiral-strength technology.  It is the product of countless hours of engineering. The Beam ecosystem gives Gleam the rare feature of fault tolerence.  Combine this with convenient and fast concurrency with excellent, effortless multi-core support, as well as support for distribution and you have the unique combination of superpowers which Gleam inherites by running on the Beam Virtual Machine. 
 
-#### Quality Code Through Static Type Checking
+#### Enhanced Code Quality Through Static Type Checking
 
 Currently, the well established languages in the Erlang ecosystem are dynamically typed. In contrast, Gleam leverages the strongest advantages of static typing.
 
@@ -36,7 +36,7 @@ Being easy to learn is one of Gleam's primary goals.  To keep the language simpl
 
 #### Fast Compilation
 
-Gleam's simplicity means that Gleam's compiler is very fast and you won't have long wait times for it to compile Gleam source code. The compiler is written in Rust.
+Gleam's simplicity means that Gleam's compiler is very fast and you won't have long wait times for compiling Gleam source code. The compiler is written in Rust.
 
 #### Immutable Data
 
