@@ -22,7 +22,7 @@ In type checked languages, you put in more up-front effort into crafting your co
 
 #### Productivity
 
-As your Gleam code base grows larger, Gleam's static typing will help you to continue to make changes fearlessly in the midst of the complexity. The compiler will identify any related, incidental changes that need to be made, anywhere in the entire code base.
+As your Gleam code base grows, Gleam's static typing will help you to continue to make changes fearlessly in the midst of the complexity. The compiler will identify any related, incidental changes that need to be made, anywhere in the entire code base.
 
 Gleam provides carefully written, super-helpful error messages, leaving you with the experience of having an extremely capable and friendly pair programmer.
 
