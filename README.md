@@ -71,6 +71,7 @@ The Gleam community is growing but still young. There are plenty of opportunitie
 - Make something with Gleam and share your feedback with the Gleam developers.
 - [Contribute to the Gleam ecosysten](https://github.com/gleam-lang)
 - If you're interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
+- [Sponsor Gleam development](https://github.com/sponsors/lpil?o=esb)
 
 ## Chapter 2. Hello Data!
 
