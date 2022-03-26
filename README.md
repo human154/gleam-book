@@ -69,8 +69,8 @@ Gleam is a young language. The Gleam community is working hard to remedy the fol
 The Gleam community is growing but still young. There are plenty of opportunities to make a contribution:
 - Write a blog post or tutorial about Gleam.
 - Make something with Gleam and share your feedback with the Gleam developers.
-- [Contribute to the Gleam ecosysten](https://github.com/gleam-lang)
-- If you're interested in writing Rust then you could [contribute to the compiler](https://github.com/gleam-lang/gleam)
+- Contribute to the [Gleam ecosysten](https://github.com/gleam-lang)
+- If you're interested in writing Rust then you could help develop the [compiler](https://github.com/gleam-lang/gleam)
 - [Sponsor Gleam development](https://github.com/sponsors/lpil?o=esb)
 
 ## Chapter 2. Hello Data!
