@@ -112,7 +112,7 @@ Most languages will allow data to be altered:
 // This isn't Gleam !!!
 
 x = 1
-increment(x) 
+increment(x) // x is mutated.
 // Now x is 2
 ```
 
