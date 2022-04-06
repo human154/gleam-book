@@ -70,7 +70,7 @@ The Gleam community is growing but still young. There are plenty of opportunitie
 - Write a blog post or tutorial about Gleam.
 - Make something with Gleam and share your feedback with the Gleam developers.
 - Contribute to the [Gleam ecosysten](https://github.com/gleam-lang).
-- If you're interested in writing Rust then you could help develop the [compiler](https://github.com/gleam-lang/gleam).
+- If you're interested in writing Rust then you could help develop the [Gleam compiler](https://github.com/gleam-lang/gleam).
 - [Sponsor Gleam development](https://github.com/sponsors/lpil?o=esb).
 
 ## Chapter 2. Hello Data!
@@ -112,7 +112,7 @@ Most languages will allow data to be altered:
 // This isn't Gleam !!!
 
 x = 1
-increment(x)
+increment(x) 
 // Now x is 2
 ```
 
@@ -122,7 +122,7 @@ In Gleam, we can only create seperate, new data, which is derived from existing 
 
 ```gleam
 let x = 1
-let y = increment(x)
+let y = increment(x) // this increment function "returns" a new value based on x.
 // Now x is 1 and y is 2.
 ```
 
